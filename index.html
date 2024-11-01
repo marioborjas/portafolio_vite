@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+</head>
+<body>
+  <!-- Navegación -->
+  <nav>
+    <ul>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenedor principal -->
+  <div class="container">
+    
+    <!-- Sección Sobre mí -->
+    <header id="about">
+      <h1>Bienvenido a mi Portafolio</h1>
+      <p>Soy un estudiante de cuarto año de Ciencia de la Computación de Honduras. Apasionado por la tecnología y el desarrollo de software, 
+      busco constantemente mejorar mis habilidades en programación y diseño de sistemas. Me encanta trabajar en proyectos que impacten 
+      positivamente en la vida de las personas y aprender nuevas herramientas que enriquezcan mi conocimiento. Estoy enfocado en construir 
+      una carrera en el campo de la informática y contribuir al avance tecnológico de mi país.</p>
+    </header>
+
+    <!-- Sección de Habilidades -->
+    <section id="skills">
+      <h2>Mis Habilidades</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <img src="./styles/assets/logos/HTML5_logo_and_wordmark.svg.png" alt="HTML">
+          <h3>HTML</h3>
+          <p>Experiencia en la creación de páginas web con HTML5.</p>
+        </div>
+        <div class="skill-card">
+          <img src="./styles/assets/logos/CSS-Logo.png" alt="CSS">
+          <h3>CSS</h3>
+          <p>Conocimiento avanzado de diseño con CSS3 y preprocesadores.</p>
+        </div>
+        <div class="skill-card">
+          <img src="./styles/assets/logos/javascript.png" alt="JavaScript">
+          <h3>JavaScript</h3>
+          <p>Capacidad para crear interactividad con JavaScript.</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Mis Proyectos</h2>
+      <div class="gallery">
+        <img src="./styles/assets/proyectos/proyecto_1.jpg" alt="Proyecto 1">
+        <img src="./styles/assets/proyectos/proyecto_2.jpg" alt="Proyecto 2">
+        <img src="./styles/assets/proyectos/proyecto_3.jpg" alt="Proyecto 3">
+        <img src="./styles/assets/proyectos/proyecto_4.jpg" alt="Proyecto 4">
+        <img src="./styles/assets/proyectos/proyecto_5.jpg" alt="Proyecto 5">
+        <img src="./styles/assets/proyectos/proyecto_6.jpg" alt="Proyecto 6">
+        
+      </div>
+    </section>
+    
+    
+    <!-- Sección de Contacto -->
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <p>Contáctame</p>
+        <p>Email: marioborjasenamorado@gmail.com</p>
+        <p>Teléfono: +504 1234-5678</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <img src="./styles/assets/logos/logo_insta.png" alt="Instagram">
+        </a>
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <img src="./styles/assets/logos/logo_facebook.png" alt="Facebook">
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp">
+          <img src="./styles/assets/logos/logo_whastapp.png" alt="WhatsApp">
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Mi Portafolio Mario Borjas. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script type="module" src="main.js"></script>
+  
+</body>
+</html>
